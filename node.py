@@ -11,7 +11,9 @@ import json
 node = Flask(__name__)
 
 this_node_transactions = []
-peer_nodes = []
+peer_nodes = [
+    "localhost:5000",
+]
 mining = True
 this_chain = Blockchain()
 
